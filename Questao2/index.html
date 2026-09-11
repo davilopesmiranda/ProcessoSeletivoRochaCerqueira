@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle Chamados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de controle de chamados</h1>
+    </header>
+    <form class="container">
+        <h2>Processo início de chamados</h2>
+        <div class="campo" id="div-input1">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Nome do solicitante" required>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="E-mail do solicitante" required>
+            <label for="setor">Setor</label>
+            <input type="text" id="setor" placeholder="Setor que atua" required>
+            <label for="assunto">Assunto</label>
+            <input type="text" id="assunto" placeholder="Assunto do chamado" required>
+        </div>
+        <div class="campo">
+            <label for="urgencia">Urgência do problema</label>
+            <select id="urgencia" required>
+                <option value="">Selecione</option>
+                <option>Baixa</option>
+                <option>Média</option>
+                <option>Alta</option>
+                <option>Crítica</option>
+            </select>
+            <label for="categoria">Destino</label>
+            <select id="categoria" required>
+                <option value="">Selecione</option>
+                <option>Suporte</option>
+                <option>Desenvolvimento</option>
+                <option>Jurídico</option>
+                <option>Financeiro</option>
+                <option>Comercial</option>
+            </select>
+        </div>
+        <div class= "campo" >
+            <label for="urgencia">Descrição do problema</label>
+            <textarea placeholder="Descrição detalhada do problema" id="descricao" required></textarea>
+        </div>
+            <div class="campo">
+            <label for="anexo">Anexar evidências</label>
+            <input type="file" id="anexo">
+        </div>
+        <div>
+            <button id="btn-chamado" type="submit">Abrir chamado</button>
+        </div>
+    </form> 
+
+
+
+    <div class="container">
+    <h2>Chamados Registrados</h2>
+
+    <table id="tabela-chamados">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Solicitante</th>
+                <th>Assunto</th>
+                <th>Status</th>
+                <th>Prioridade</th>
+                <th>Abertura</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+
+        <tbody id="lista-chamados">
+
+        </tbody>
+    </table>
+</div>
+   <script src="script.js"></script>
+</body>
+</html>
