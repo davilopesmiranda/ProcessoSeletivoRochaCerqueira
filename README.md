@@ -1,351 +1,92 @@
-# Processo Seletivo Rocha Cerqueira
+# Questão 01
 
-## Sobre o Projeto
+Primeiramente eu iniciaria o processo de avaliação do problema com a seguinte mensagem:
 
-Este repositório contém as soluções desenvolvidas para o Processo Seletivo da Rocha Cerqueira Sociedade de Advogados.
+> “Olá, bom dia! Sou da equipe de suporte, entendo a urgência que se encontra e estarei aqui para te ajudar a resolver o problema o mais rápido possível! Para iniciar poderia descrever para mim o problema em detalhes e qual a exata mensagem de erro recebida ao tentar efetuar o login?”
 
-As atividades propostas tiveram como objetivo avaliar competências relacionadas a atendimento ao usuário, análise e resolução de incidentes, organização de processos, desenvolvimento web e programação em Python.
+Assim já conseguiria averiguar se por meio apenas da descrição e mensagem de erro eu poderia resolver rapidamente o problema ou se seria necessário mais detalhes sobre o mesmo.
 
----
+Logo após iniciaria o processo de implementar na planilha de controle todos os processos e atualizações que tiver a partir daqui sendo até o momento:
 
-## Estrutura do Repositório
+- Nome do usuário
+- E-mail do usuário
+- Problema mencionado
+- Nível de urgência
+- Data e hora do início do suporte
+- Data em que o problema começou
 
-```text
-ProcessoSeletivoRochaCerqueira
-│
-├── Questao01
-│   └── Questao01-AtendimentoIncidentes.md
-│
-├── Questao02
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-└── Questao03
-    └── main.py
-```
+Se após a análise da mensagem de erro não fosse possível identificar o problema apenas pela mensagem de erro eu prosseguiria o atendimento realizando perguntas para averiguar se poderia ser solucionado por mim naquele momento ou se seria necessário uma análise mais profunda do problema.
 
----
+### Perguntas de investigação
 
-## Tecnologias Utilizadas
+1. O usuário já teve esse problema antes?
+2. O usuário realizou o login com o email e senha corretos para acessar o sistema desejado?
+3. O usuário tem acesso a este software?
+4. No momento de digitar a senha o usuário utilizou corretamente os caracteres maiúsculos e espaços entre caracteres?
+5. O problema se iniciou hoje ou já tem algum tempo?
+6. Houve alguma atualização recente no sistema que fez o problema se iniciar ou foi algo repentino?
+7. Houve alguma atualização no email ou senha recentemente?
+8. O usuário não consegue acessar apenas por aquela máquina/navegador ou se repete em outros dispositivos/navegadores?
+9. Outros usuários relataram o mesmo problema recentemente?
 
-### Questão 01
+### Evidências solicitadas
 
-- Documentação Técnica
-- Análise de Incidentes
-- Fluxo de Atendimento
-- Boas Práticas de Suporte
+Em seguida, eu pediria ao usuário para que me enviasse as seguintes evidências para caso fosse necessário encaminhar este problema a outros setores da empresa:
 
-### Questão 02
+1. Um print da tela mostrando o problema
+2. Um vídeo da tela do usuário tentando fazer o acesso com seu email e senha mostrando o passo a passo que ele fez para realizar o login
+3. A data e hora aproximada que se descobriu o problema
+4. O dispositivo utilizado pelo usuário para tentar efetuar o acesso
+5. O email do usuário
+6. Se é possível que ele redefina a senha
 
-- HTML5
-- CSS3
-- JavaScript
+### Testes iniciais
 
-### Questão 03
+Após esse processo eu iniciaria uma série de testes para que eu pudesse ter um melhor encaminhamento de onde está localizado o problema, como:
 
-- Python 
-- Requests
-- API REST
-- JSON
-
----
-
-# Questão 01 - Atendimento e Triagem de Incidentes
-
-## Objetivo
-
-Descrever o processo completo de atendimento a um usuário que reporta um problema crítico de acesso a um sistema utilizado em suas atividades profissionais.
+1. Testar o estado que a rede da empresa se encontra e se funciona corretamente
+2. Ver se o dispositivo utilizado está devidamente conectado à rede e se todos os cabos estão conectados e funcionando da maneira que deveriam
+3. Verificar se a conta do usuário se encontra ativa e se há permissão para acesso do software
+4. Analisar se não há nenhum mal funcionamento ao utilizar o dispositivo
+5. Verificar no sistema se outros usuários já relataram problemas parecidos recentemente
+6. Verificar se houveram mudanças não avisadas no software da empresa que poderiam causar o problema
 
 ---
 
-## Escopo da Solução
+## Escalonamento
 
-A solução contempla:
+Se ao fim de todo este processo eu ainda não conseguisse achar ou resolver o problema encaminharia para um setor que seria capaz de resolver com velocidade o problema do usuário.
 
-- Atendimento inicial ao usuário
-- Levantamento de informações
-- Registro da ocorrência
-- Coleta de evidências
-- Diagnóstico inicial
-- Testes de validação
-- Escalonamento para equipes responsáveis
-- Acompanhamento até a resolução
-- Encerramento documentado do atendimento
+### Encaminhamento para Desenvolvimento
 
----
+Se o problema aparenta ser de mal funcionamento do sistema como problemas ao se conectar ao banco de dados da empresa, indícios de bugs ou falhas apenas no login do usuário eu encaminharia este problema ao desenvolvedor da empresa com a seguinte mensagem:
 
-## Principais Etapas
+> “O usuário relatou que está com problema ao efetuar seu login com o seguinte erro *PRINT DA MENSAGEM DE ERRO* e o usuário tentava fazer o login da seguinte forma *VÍDEO DO USUÁRIO TENTANDO REALIZAR O LOGIN*.
+>
+> Os devidos testes necessários para se confirmar quais poderiam ser as causas foram realizados e durante os testes tudo foi feito da forma correta e mesmo assim não foi possível realizar o login.
+>
+> Após os testes também foi chegada a conclusão que o problema aparenta ser no sistema da empresa e se faz preciso que seja solucionado o quanto antes por conta do encerramento breve de um dos prazos de entrega do usuário.
+>
+> Aguardo retorno caso seja descoberto o problema e se foi resolvido!”
 
-### Atendimento Inicial
+E ao mesmo tempo manteria o usuário informado todo o tempo de cada um dos processos que o desenvolvedor avançar e me dizer sobre.
 
-Realização do primeiro contato com o usuário buscando compreender a situação, demonstrando empatia e priorizando a resolução do incidente.
+### Encaminhamento Administrativo / Financeiro
 
-### Coleta de Informações
+Porém se o problema aparentasse ser relacionado ao usuário não ter permissão para acessar devido software, ou caso o usuário tivesse tido algum problema relacionado à parte contratual ou financeira eu recorreria aos setores administrativos, financeiros ou responsáveis pelo contrato para analisar o atual estado que o usuário se encontra.
 
-Investigação do cenário através de perguntas relacionadas a:
+### Encaminhamento para Implantação
 
-- Histórico do problema
-- Credenciais utilizadas
-- Permissões de acesso
-- Atualizações recentes
-- Comportamento do erro
-- Impacto operacional
-
-### Registro do Chamado
-
-Documentação das informações coletadas para garantir rastreabilidade durante todo o processo.
-
-### Coleta de Evidências
-
-Solicitação de:
-
-- Prints da tela
-- Vídeos demonstrando a ocorrência
-- Data e horário do problema
-- Informações do dispositivo
-- Informações do usuário
-
-### Diagnóstico Inicial
-
-Execução de testes para validar:
-
-- Funcionamento da rede
-- Conectividade do dispositivo
-- Permissões do usuário
-- Integridade do ambiente
-- Ocorrências semelhantes
-
-### Escalonamento
-
-Encaminhamento do incidente para a equipe mais adequada de acordo com a causa identificada:
-
-- Desenvolvimento
-- Implantação
-- Administrativo
-- Financeiro
-- Gestão Contratual
-
-### Acompanhamento
-
-Comunicação contínua com o usuário até a completa resolução do problema.
-
-### Encerramento
-
-Registro final contendo:
-
-- Causa do problema
-- Equipe responsável
-- Solução aplicada
-- Data e horário de encerramento
+Senão enviaria ao setor de implantação alegando que talvez houvesse tido algum problema ao implantar o software para o usuário em questão e demandaria que fosse analisada a situação.
 
 ---
 
-# Questão 02 - Sistema de Controle de Chamados
-
-## Objetivo
-
-Desenvolver uma aplicação web para abertura e acompanhamento de chamados internos.
-
----
-
-## Funcionalidades
-
-- Cadastro de chamados
-- Registro de solicitante
-- Registro de e-mail
-- Registro de setor
-- Definição de prioridade
-- Seleção do setor responsável
-- Registro da descrição do problema
-- Inclusão de anexos
-- Controle de status
-- Listagem de chamados
-- Encerramento de chamados
-
----
-
-## Estrutura dos Arquivos
-
-### index.html
-
-Responsável pela estrutura da aplicação.
-
-Contém:
-
-- Cabeçalho principal
-- Formulário de abertura de chamados
-- Campos de cadastro
-- Área de descrição do problema
-- Campo de anexos
-- Tabela para visualização dos chamados
-
-### style.css
-
-Responsável pela estilização da interface.
-
-Principais recursos:
-
-- Layout responsivo
-- Organização visual dos componentes
-- Estilização de formulários
-- Estilização de tabelas
-- Personalização de botões
-
-### script.js
-
-Responsável pelas regras de negócio da aplicação.
-
-Principais funcionalidades:
-
-- Cadastro de chamados
-- Armazenamento em memória
-- Atualização dinâmica da tabela
-- Controle de status
-- Registro das datas de abertura e encerramento
-- Encerramento mediante confirmação de devolutiva ao usuário
-
----
-
-## Fluxo da Aplicação
-
-1. Usuário preenche o formulário.
-2. Sistema valida os campos obrigatórios.
-3. Chamado é criado.
-4. Chamado é exibido na tabela.
-5. Status inicial definido como "Aberto".
-6. Atendimento é realizado.
-7. Usuário recebe retorno.
-8. Chamado é encerrado.
-9. Status é alterado para "Fechado".
-
----
-
-## Como Executar
-
-Abra o arquivo:
-
-```bash
-index.html
-```
-
-em qualquer navegador moderno.
-
----
-
-# Questão 03 - Relatório de Tarefas por Usuário
-
-## Objetivo
-
-Consumir dados de APIs públicas, processá-los e gerar relatórios consolidados de tarefas por usuário.
-
----
-
-## Funcionalidades
-
-- Consulta de usuários via API
-- Consulta de tarefas via API
-- Relacionamento entre usuários e tarefas
-- Contagem de tarefas concluídas
-- Contagem de tarefas pendentes
-- Cálculo do total de atividades
-- Identificação do usuário com mais pendências
-- Geração de relatório via terminal
-
----
-
-## Estrutura da Solução
-
-### buscar_usuarios()
-
-Realiza a requisição para obtenção da lista de usuários.
-
-### buscar_tarefas()
-
-Realiza a requisição para obtenção da lista de tarefas.
-
-### Processamento dos Dados
-
-Relaciona tarefas aos respectivos usuários através do identificador da conta.
-
-### Relatório
-
-Exibe para cada usuário:
-
-- Quantidade de tarefas concluídas
-- Quantidade de tarefas pendentes
-- Quantidade total de atividades
-
-### Análise de Pendências
-
-Após a geração do relatório, identifica:
-
-- Usuário com o maior número de pendências
-- Empates entre usuários
-- Quantidade máxima de pendências registradas
-
----
-
-## Como Executar
-
-### Instalar dependências
-
-```bash
-pip install requests
-```
-
-### Executar aplicação
-
-```bash
-python main.py
-```
-
----
-
-## Competências Demonstradas
-
-### Atendimento e Suporte
-
-- Comunicação com usuários
-- Coleta de evidências
-- Registro de incidentes
-- Escalonamento de chamados
-- Acompanhamento de resolução
-
-### Desenvolvimento Web
-
-- HTML5
-- CSS3
-- JavaScript
-- - Responsividade
-
-### Programação
-
-- Python
-- Consumo de APIs REST
-- Manipulação de JSON
-- Estruturas condicionais
-- Estruturas de repetição
-- Processamento de dados
-- Geração de relatórios
-
----
-
-## Melhorias Futuras
-
-- Persistência de dados utilizando banco de dados.
-- Integração entre frontend e API.
-- Sistema de autenticação.
-- Dashboard gerencial.
-- Upload real de anexos.
-- Exportação de relatórios.
-- Testes automatizados.
-- Monitoramento de indicadores.
-
----
-
-## Autor
-
-**Davi Lopes Miranda**
-
-Desenvolvido como parte do Processo Seletivo da Rocha Cerqueira Sociedade de Advogados
+## Encerramento
+
+Ao fim registraria na planilha detalhadamente:
+
+- Qual era o problema do usuário
+- Qual foi a causa raiz
+- Qual setor foi responsável pela solução
+- Por quais setores foi necessário passar
+- Data e hora de encerramento da ocorrência
